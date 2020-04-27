@@ -7,6 +7,8 @@
  */
 /*
  * @autor Jakub Pokorny
+ * vyvtoreni class numbers a jejich 
+ * statiickych funkci 
  */
 //nastaveni tridy numbers
 class numbersPokorny{
@@ -92,6 +94,7 @@ static public function number_formatPokorny($formatuje) {
     return number_format($formatuje);
 }
 }
+//nadefinovani promennych
 $zaokrouhli = 3.55;
 $zaokrouhlinahoru = 7.55;
 $zaokrouhlidolu = 6.75;
